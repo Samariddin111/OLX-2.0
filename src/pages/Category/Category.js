@@ -2,6 +2,7 @@ import "./Category.css"
 import React from 'react'
 import { useParams } from "react-router"
 import datas from "../../data"
+import { Link } from "react-router-dom"
 
 const Category = () => {
 
@@ -11,11 +12,25 @@ console.log(data);
 
     return (
         <div className="container py-5">
-<h1 className="mb-4">  {category}</h1>
-<div className="products">
+        <h1 className="mb-4">Category {category}</h1>
+        <div className="products">
+            {data?.map(v =>
+                <Link to={`${category}`} className="mb-3 rounded overflow-hidden shadow d-flex justify-content-between">
+                    <div className="d-flex">
+                        <img src={v.img} style={{ height: "200px", width: "200px", objectFit: "cover" }} alt="" />
 
-</div>
+                        <div className="h-100 d-flex flex-column justify-content-between p-3">
+                            <h4>{v.title}</h4>
+                            <span>{v.location}</span>
+                        </div>
+                    </div>
+
+                    <h4 className="m-3">{v.price}</h4>
+                </Link>
+            )}
+
         </div>
+    </div>
     )
 }
 

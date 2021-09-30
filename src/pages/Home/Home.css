@@ -21,5 +21,8 @@ h1 {
 .circle img { 
     width: 80%;
 }
-
+.sarlavhasi :hover { 
+    background-color: rgb(19, 29, 19);
+    color: white;
+}
   

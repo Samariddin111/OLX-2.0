@@ -2,7 +2,6 @@ import React from 'react'
 import "./Header.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
-import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
 
 
@@ -142,11 +141,8 @@ const Header = () => {
         </div>
         
         
-        <div>
       
-    </div>
 
-    <Button color="danger" onClick={faIkonka}>Open</Button>
         </header>
     </div>
          

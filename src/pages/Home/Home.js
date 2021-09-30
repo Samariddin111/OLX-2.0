@@ -7,15 +7,64 @@ const categories = [
     { 
          to:"detskiy-mir",
           backgroundColor:"#ffce32",
-           img:"https://static10.tgstat.ru/channels/_0/f9/f94a9faf4929bff90d39a0e2f281dc18.jpg",
+           img:"",
             title:"Детский мир"
         },
         { 
             to:"nedvijimost",
              backgroundColor:"#3a77ff",
-              img:"https://categories.olxcdn.com/assets/categories/olxuz/nedvizhimost-1-2x.png",
+              img:"",
                title:"Недвижимость"
            },
+           { 
+            to:"transport",
+             backgroundColor:"#23e5db",
+              img:"",
+               title:"Транспорт"
+           },
+           { 
+            to:"rabota",
+             backgroundColor:"#ff5636",
+              img:"",
+               title:"Работа"
+           },
+           { 
+            to:"hayvonlar",
+             backgroundColor:"#fff6d9",
+              img:"",
+               title:" Животные"
+           },
+           { 
+            to:"uy-va-sad",
+             backgroundColor:"#ceddff ",
+              img:"",
+               title:"Дом и сад"
+           },
+           { 
+            to:"elektronika",
+             backgroundColor:"#c8f8f6",
+              img:"",
+               title:"Электроника"
+           },
+           { 
+            to:"biznes",
+             backgroundColor:"#ffd6c9",
+              img:"",
+               title:"Бизнес и услуги"
+           },
+           { 
+            to:"moda",
+             backgroundColor:"#ffce32",
+              img:"",
+               title:"Мода и стиль"
+           },
+           { 
+            to:"hobby",
+             backgroundColor:"#ceddff",
+              img:"",
+               title:"Хобби, отдых и спорт"
+           },
+           
 ]
 
 const Home = () => { 
@@ -30,7 +79,7 @@ const Home = () => {
          <div className="circle" style={{backgroundColor:v.backgroundColor}} >
                 <img src={v.img} alt="" />
             </div>
-            <p>{v.title}</p>
+            <p className="sarlavhasi">{v.title}</p>
          </Link> 
         )}
           
