@@ -60,7 +60,7 @@ header {
     text-decoration: none;
   }
   header .lll:hover {
-    color: rgb(193, 233, 51);
+    color: rgb(181, 255, 9);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19px;
@@ -68,8 +68,8 @@ header {
   
   
   .logo { 
-     width: 100px;
+     width: 80px;
      height: 80px;
-     border-radius: 50%;
+     border-radius: 100%;
   }
  

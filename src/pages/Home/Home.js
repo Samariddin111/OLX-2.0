@@ -7,61 +7,61 @@ const categories = [
     { 
          to:"detskiy-mir",
           backgroundColor:"#ffce32",
-           img:"",
+           img:"https://categories.olxcdn.com/assets/categories/olxuz/detskiy-mir-36-2x.png",
             title:"Детский мир"
         },
         { 
             to:"nedvijimost",
              backgroundColor:"#3a77ff",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/nedvizhimost-1-2x.png",
                title:"Недвижимость"
            },
            { 
             to:"transport",
              backgroundColor:"#23e5db",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/transport-3-2x.png",
                title:"Транспорт"
            },
            { 
             to:"rabota",
              backgroundColor:"#ff5636",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/rabota-6-2x.png",
                title:"Работа"
            },
            { 
             to:"hayvonlar",
              backgroundColor:"#fff6d9",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/zhivotnye-35-2x.png",
                title:" Животные"
            },
            { 
-            to:"uy-va-sad",
+            to:"domisad",
              backgroundColor:"#ceddff ",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/dom-i-sad-899-2x.png",
                title:"Дом и сад"
            },
            { 
             to:"elektronika",
              backgroundColor:"#c8f8f6",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/elektronika-37-2x.png",
                title:"Электроника"
            },
            { 
-            to:"biznes",
+            to:"biznesuslugi",
              backgroundColor:"#ffd6c9",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/uslugi-7-2x.png",
                title:"Бизнес и услуги"
            },
            { 
-            to:"moda",
+            to:"modastil",
              backgroundColor:"#ffce32",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/moda-i-stil-891-2x.png",
                title:"Мода и стиль"
            },
            { 
             to:"hobby",
              backgroundColor:"#ceddff",
-              img:"",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/hobbi-otdyh-i-sport-903-2x.png",
                title:"Хобби, отдых и спорт"
            },
            

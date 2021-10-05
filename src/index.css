@@ -14,9 +14,9 @@ code {
 }
 a { 
   text-decoration: none !important;
-  color: black !important;
+  color: black ;
 }
 a:hover { 
   text-decoration: none;
-  color: black !important;
+  color: black ;
 }
