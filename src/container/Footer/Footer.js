@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <div>
 
-<div class="container">
+<div class="container mt-0">
             <div class="row">
                 <div className="col-lg-3 col-md-6">
                     <div className="cardd" data-aos="fade-up" data-aos-duration="1200">

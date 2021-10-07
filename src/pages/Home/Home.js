@@ -71,7 +71,7 @@ const Home = () => {
     return (
 <Fade>
 <div>
-       <div className="container py-5">
+       <div className="container py-0">
        <h1 className="text-center">Главные категории</h1>
        <div className="categories">
     {categories.map(  v => 
