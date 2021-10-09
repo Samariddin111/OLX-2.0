@@ -8,6 +8,8 @@ import Elektronika from "./elektronika"
 import Biznesuslugi from "./biznesuslugi"
 import Modastil from "./modastil"
 import Hobby from './hobby'
+import Tekin from './otdam-darom'
+import Alishaman from './obmen'
 
 const data = {
     "detskiy-mir": DetskiyMir,
@@ -19,7 +21,9 @@ const data = {
     "elektronika" : Elektronika,
     "biznesuslugi": Biznesuslugi,
     "modastil" : Modastil,
-    "hobby" : Hobby
+    "hobby" : Hobby,
+"otdam-darom" : Tekin,
+"obmen" : Alishaman
 }
 
     export default data; 

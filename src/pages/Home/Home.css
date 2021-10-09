@@ -7,9 +7,7 @@ h1 {
     flex-wrap: wrap;
    padding-top: 60px;    
 }
-.category { 
-    margin: 0 12px;
-}
+
 .circle { 
     border-radius: 50%;
     height: 80px;
@@ -30,4 +28,8 @@ h1 {
 .category:hover .sarlavhasi { 
     color: white !important;
     background-color: black;
+}
+.chiziq  {
+    margin-top: 25px; 
+    height: 13px  !important;
 }

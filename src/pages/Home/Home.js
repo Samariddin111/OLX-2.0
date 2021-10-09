@@ -34,6 +34,7 @@ const categories = [
               img:"https://categories.olxcdn.com/assets/categories/olxuz/zhivotnye-35-2x.png",
                title:" Животные"
            },
+           
            { 
             to:"domisad",
              backgroundColor:"#ceddff ",
@@ -64,6 +65,21 @@ const categories = [
               img:"https://categories.olxcdn.com/assets/categories/olxuz/hobbi-otdyh-i-sport-903-2x.png",
                title:"Хобби, отдых и спорт"
            },
+           { 
+            to:"otdam-darom",
+             backgroundColor:"#c8f8f6",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/otdam-darom-1151-2x.png ",
+               title:"Отдам даром"
+           },
+           { 
+            to:"obmen",
+             backgroundColor:"#ffd6c9",
+              img:"https://categories.olxcdn.com/assets/categories/olxuz/obmen-barter-1153-2x.png",
+               title:"Обмен"
+           },
+           
+           
+           
            
 ]
 
@@ -71,15 +87,15 @@ const Home = () => {
     return (
 <Fade>
 <div>
-       <div className="container py-0">
+       <div className="container ">
        <h1 className="text-center">Главные категории</h1>
-       <div className="categories">
+       <div className="categories ">
     {categories.map(  v => 
-         <Link to={v.to} className="category">
+         <Link to={v.to} className="category col-4 col-md-2 mt-4">
          <div className="circle" style={{backgroundColor:v.backgroundColor}} >
-                <img src={v.img} alt="" />
+                <img src={v.img} alt="" className="w-100" />
             </div>
-            <p className="sarlavhasi">{v.title}</p>
+            <p className="sarlavhasi mt-3 text-center  ">{v.title}</p>
          </Link> 
         )}
           

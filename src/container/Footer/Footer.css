@@ -3,8 +3,12 @@ span {
     width: 50px;
 }
 
-.container { 
+.container1 { 
+  height: 50%;
     margin-bottom: 19px;
+    margin-top: 25px;
+    background-color: #cac8c5;
+    
 }
 #addon-wrapping { 
 font-size: 30px;
@@ -28,6 +32,7 @@ font-size: 30px;
   }
   
  .cardd h1 {
+   margin-top: 45px !important;
     font-size: 50px;
     font-weight: bold;
     margin: 20px 0;
